@@ -1,6 +1,6 @@
 import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { environments } from '../environments/environment.develop';
+import { environment } from '../environments/environment.develop';
 export interface Movie {
   id: number;
   title: string;
